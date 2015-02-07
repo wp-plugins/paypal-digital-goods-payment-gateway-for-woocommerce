@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-The Paypal Digital Goods Payment Gateway For Woocommerce makes it possible to sell products with WooCommerce via PayPal Express Checkout for Digital Goods.
+The Paypal Digital Goods Payment Gateway For Woocommerce makes it possible to sell products with WooCommerce.
 == Description ==
 = Introduction =
 

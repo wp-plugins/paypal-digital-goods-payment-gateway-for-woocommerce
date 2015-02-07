@@ -49,7 +49,7 @@ Obtain your PayPal API Credentials
 Configure the Paypal Digital Goods Payment Gateway For Woocommerce
 
 == Frequently Asked Questions ==
-
+* [read more about your query](https://cms.paypal.com/cms_content/US/en_US/files/merchant/paypal_digital_goods-express_checkout_getting_started.pdf)
 
 
 

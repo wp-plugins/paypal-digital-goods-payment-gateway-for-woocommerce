@@ -1,5 +1,5 @@
 === Paypal Digital Goods Payment Gateway For Woocommerce ===
-Contributors: johnny manziel
+Contributors: jigneshkailam
 Tags: Authorize.net, woocommerce, wordpress plugin payment gateway, PayPal payment gateway, woocommerce payment gateway, paypal digital goods
 Requires at least: 3.0.1
 Tested up to: 4.1

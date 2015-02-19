@@ -6,8 +6,8 @@
  * Plugin Name:       Paypal Digital Goods Payment Gateway For Woocommerce
  * Plugin URI:        http://www.mbjtechnolabs.com
  * Description:       The Paypal Digital Goods Payment Gateway For Woocommerce makes it possible to sell products with WooCommerce via PayPal Express Checkout for Digital Goods.
- * Version:           1.0.0
- * Author:            johnny manziel
+ * Version:           1.0.1
+ * Author:            phpwebcreators
  * Author URI:        http://www.mbjtechnolabs.com
  * License:           GNU General Public License v3.0
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.html

@@ -56,7 +56,7 @@ class MBJ_Paypal_Digital_Goods_Payment_Gateway_For_WooCommerce {
     public function __construct() {
 
         $this->plugin_name = 'Paypal Digital Goods Payment Gateway For Woocommerce';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
 
         $this->load_dependencies();
         $this->set_locale();

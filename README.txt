@@ -54,7 +54,8 @@ Configure the Paypal Digital Goods Payment Gateway For Woocommerce
 
 
 == Changelog ==
-
+= 1.0.1 =
+*       add support for WooCommerce 2.2's refunds
 = 1.0.0 =
 *	Release Date - 2 Feb, 1015
 *  	First Version

@@ -8,12 +8,17 @@ jQuery(document).ready(function($) {
         data: 'action=paypal_digital_goods_payment_gateway_for_woocommerce_do_express_checkout&' + paypal_digital_goods_payment_gateway_for_woocommerce.queryString,
         success: function(response) {
             try {
-                var success = $.parseJSON(response);
-                $('#message').text(paypal_digital_goods_payment_gateway_for_woocommerce.msgComplete);
-                if (window != top) {
-                    top.location.replace(decodeURI(success.redirect));
+                var response = $.parseJSON(response);
+                if ('success' == response.result) {
+                    $('#message').text(paypal_digital_goods_payment_gateway_for_woocommerce.msgComplete);
+                    if (window != top) {
+                        top.location.replace(decodeURI(response.redirect));
+                    } else {
+                        window.location = decodeURI(response.redirect);
+                    }
                 } else {
-                    window.location = decodeURI(success.redirect);
+                    response = response.message;
+                    throw response.message;
                 }
             } catch (err) {
                 if (response.indexOf('woocommerce_error') == -1 && response.indexOf('woocommerce_message') == -1) {

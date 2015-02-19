@@ -410,7 +410,7 @@ class MBJ_Paypal_Digital_Goods_Payment_Gateway_For_WooCommerce_Admin_Display ext
         $paypal_args = array(
             'invoice_number' => $this->invoice_prefix . ltrim($order->get_order_number(), '#'),
             'custom' => $order->order_key,
-            'BUTTONSOURCE' => 'WooThemes_Cart',
+            'BUTTONSOURCE' => 'mbjtechnolabs_SP',
             'amount' => $recurring_amount,
             'average_amount' => $recurring_amount,
             'start_date' => apply_filters('woocommerce_paypal_digital_goods_subscription_start_date', gmdate('Y-m-d\TH:i:s', gmdate('U') + ( 13 * 60 * 60 )), $order),
@@ -499,7 +499,7 @@ class MBJ_Paypal_Digital_Goods_Payment_Gateway_For_WooCommerce_Admin_Display ext
         $paypal_args = array(
             'name' => sprintf(__('Order #%s', 'paypal_digital_goods_payment_gateway_for_woocommerce'), $order->id),
             'description' => sprintf(__('Payment for Order #%s', 'paypal_digital_goods_payment_gateway_for_woocommerce'), $order->id),
-            'BUTTONSOURCE' => 'WooThemes_Cart',
+            'BUTTONSOURCE' => 'mbjtechnolabs_SP',
             'amount' => number_format($order_total, 2, '.', ''),
             'tax_amount' => number_format($order->get_total_tax(), 2, '.', ''),
             'invoice_number' => $this->invoice_prefix . ltrim($order->get_order_number(), '#'),

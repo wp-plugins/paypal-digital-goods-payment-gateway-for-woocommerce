@@ -13,6 +13,40 @@ The Paypal Digital Goods Payment Gateway For Woocommerce makes it possible to se
 
 This Plugin offers in-context payment so buyers never leave your site to pay for an order. After a buyer has purchased once with your site.
 
+= More payment choice means more sales. =
+*	Shoppers feel safer when they see the PayPal logo on your site.
+*	Access to over 100 million active online buyers who look for the PayPal way to pay!
+*	Set-up is a snap and processing fees are low. Start selling online in just minutes with PayPal.
+*	Join the most successful online retailers who add PayPal to streamline checkout and boost sales.
+*	PayPal invests millions to keep customer information safe and fraud rates extremely low.
+
+= Set-up is a snap = 
+*	Paypal Digital Goods Payment Gateway For Woocommerce Plugin makes it faster and easier to add PayPal to your site.
+ 
+= Help boost Sales =
+*	Open the door to over 100 million buyers who look for the PayPal way to pay.
+ 
+= Faster checkout helps increase sales =
+*	Streamlining checkout satisfies customers, helps increase sales and prevent shopping cart abandonment.
+ 
+= Start selling in just minutes =
+*	PayPal requires no set-up or cancellation fees and no advanced programming knowledge.
+ 
+= Peace of Mind =
+*	Merchants enjoy peace of mind with a leader in payments. PayPal invests millions to keep customer information safe and fraud rates extremely low.
+ 
+= Trusted =
+*	Millions of retailers of all types and sizes trust the checkout experts at PayPal to increase sales by making checkout faster, easier and more secure.
+ 
+= Low processing rates =
+*	PayPal's processing fees are easy and transparent and among the lowest around.
+ 
+= Save 14% on credit card processing rates for your website1. =
+ 
+= Clear and easy reporting =
+*	PayPal reporting is clear and easy, showing all customer activity, transaction data, and profit and loss.
+
+
 == Installation ==
 
 = Automatic installation =

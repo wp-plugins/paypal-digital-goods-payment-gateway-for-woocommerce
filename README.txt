@@ -86,6 +86,17 @@ Configure the Paypal Digital Goods Payment Gateway For Woocommerce
 * [read more about your query](https://cms.paypal.com/cms_content/US/en_US/files/merchant/paypal_digital_goods-express_checkout_getting_started.pdf)
 
 
+== Screenshots ==
+
+1. PayPal Digital Goods Payment gateway setting page.
+2. Select PayPal Digital Goods Payment gateway.
+3. PayPal Digital Goods Payment gateway PayPal login page.
+4. Enter email and password in login page.
+5. Confirm order page.
+6. Processing page.
+
+
+
 
 == Changelog ==
 = 1.0.1 =

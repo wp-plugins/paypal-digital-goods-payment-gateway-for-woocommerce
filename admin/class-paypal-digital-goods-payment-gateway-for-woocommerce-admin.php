@@ -68,7 +68,7 @@ class MBJ_Paypal_Digital_Goods_Payment_Gateway_For_WooCommerce_Admin {
             '<a href="' . admin_url('admin.php?page=wc-settings&tab=checkout&section=mbj_authorize_advanced_payment_gateway_for_woocommerce_lib') . '">' . __('Settings', 'authorize-net-advanced-payment-gateway-for-woocommerce') . '</a>',
         );
 
-          return array_merge($plugin_links, $links);
+        return array_merge($plugin_links, $links);
     }
 
     /**
@@ -99,6 +99,11 @@ class MBJ_Paypal_Digital_Goods_Payment_Gateway_For_WooCommerce_Admin {
         $transaction_details = stripslashes_deep($transaction_details);
 
         $paypal_digital_goods_payment_gateway_for_woocommerce_gateway->process_ipn_request($transaction_details);
+    }
+
+    public function paypal_digital_goods_payment_gateway_for_woocommerce_standard_parameters($paypal_args) {
+        $paypal_args['bn'] = 'mbjtechnolabs_SP';
+        return $paypal_args;
     }
 
 }

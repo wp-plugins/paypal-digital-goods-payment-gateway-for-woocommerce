@@ -56,7 +56,7 @@ class MBJ_Paypal_Digital_Goods_Payment_Gateway_For_WooCommerce {
     public function __construct() {
 
         $this->plugin_name = 'Paypal Digital Goods Payment Gateway For Woocommerce';
-        $this->version = '1.0.1';
+        $this->version = '1.0.2';
 
         $this->load_dependencies();
         $this->set_locale();
@@ -141,6 +141,7 @@ class MBJ_Paypal_Digital_Goods_Payment_Gateway_For_WooCommerce {
         $this->loader->add_filter('plugin_action_links_' . MBJ_DG_PLUGIN_BASENAME, $plugin_admin, 'paypal_digital_goods_payment_gateway_for_woocommerce_action_links');
         $this->loader->add_action('paypal_digital_goods_payment_gateway_for_woocommerce_check_subscription_status', $plugin_admin, 'paypal_digital_goods_payment_gateway_for_woocommerce_check_subscription_status');
         $this->loader->add_action('paypal_digital_goods_payment_gateway_for_woocommerce_check_subscription_status', $plugin_admin, 'paypal_digital_goods_payment_gateway_for_woocommerce_process_ipn_request', 1);
+        $this->loader->add_filter('woocommerce_paypal_args', $plugin_admin, 'paypal_digital_goods_payment_gateway_for_woocommerce_standard_parameters', 99, 1);
     }
 
     /**

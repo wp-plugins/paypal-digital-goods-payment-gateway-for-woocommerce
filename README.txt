@@ -2,7 +2,7 @@
 Contributors: johnwickjigo
 Tags: Woocommerce, PayPal, PayPal Button, PayPal Payment Gateway, Payment Gateway, PayPal Digital Goods, Digital Goods PayPal, PayPal Gateway, PayPal, Woocommerce Payment Gateway, Digital Payment Gateway, PayPal, PayPal Gateway, LightBox PayPal Payment Gateway, Gateway, paypal digital goods
 Requires at least: 3.0.1
-Tested up to: 4.1.1
+Tested up to: 4.2.1
 Stable tag: trunk
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -99,6 +99,9 @@ Configure the Paypal Digital Goods Payment Gateway For Woocommerce
 
 
 == Changelog ==
+* 1.2.0      
+*       1/5/2015 ( 1.2.0 )
+*       Compatible with WordPress 4.2.1 version
 = 1.0.1 =
 *       add support for WooCommerce 2.2's refunds
 = 1.0.0 =

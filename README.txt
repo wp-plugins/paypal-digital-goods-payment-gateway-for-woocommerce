@@ -1,5 +1,6 @@
 === Paypal Digital Goods Payment Gateway For Woocommerce ===
 Contributors: johnwickjigo
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=68A46XPQMRCJN
 Tags: Woocommerce, PayPal, PayPal Button, PayPal Payment Gateway, Payment Gateway, PayPal Digital Goods, Digital Goods PayPal, PayPal Gateway, PayPal, Woocommerce Payment Gateway, Digital Payment Gateway, PayPal, PayPal Gateway, LightBox PayPal Payment Gateway, Gateway, paypal digital goods
 Requires at least: 3.0.1
 Tested up to: 4.2.1

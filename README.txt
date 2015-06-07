@@ -12,6 +12,8 @@ The Paypal Digital Goods Payment Gateway For Woocommerce makes it possible to se
 == Description ==
 = Introduction =
 
+Need help? Contact me at: phpwebcreators@gmail.com any time :)
+
 This Plugin offers in-context payment so buyers never leave your site to pay for an order. After a buyer has purchased once with your site.
 
 = More payment choice means more sales. =

@@ -102,7 +102,11 @@ class MBJ_Paypal_Digital_Goods_Payment_Gateway_For_WooCommerce_Admin {
     }
 
     public function paypal_digital_goods_payment_gateway_for_woocommerce_standard_parameters($paypal_args) {
-        $paypal_args['bn'] = 'mbjtechnolabs_SP';
+        if( isset($paypal_args['BUTTONSOURCE']) ) {
+            $paypal_args['BUTTONSOURCE'] = 'mbjtechnolabs_SP';
+        } else {
+            $paypal_args['bn'] = 'mbjtechnolabs_SP';
+        }
         return $paypal_args;
     }
 

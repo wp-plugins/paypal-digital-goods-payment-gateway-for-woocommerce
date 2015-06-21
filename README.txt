@@ -16,6 +16,7 @@ Need help? Contact me at: phpwebcreators@gmail.com any time :)
 
 This Plugin offers in-context payment so buyers never leave your site to pay for an order. After a buyer has purchased once with your site.
 
+
 = More payment choice means more sales. =
 *	Shoppers feel safer when they see the PayPal logo on your site.
 *	Access to over 100 million active online buyers who look for the PayPal way to pay!
